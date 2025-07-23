@@ -1,14 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "The Hadamard ψ-Caputo tempered fractional derivative in various types of fuzzy fractional differential equations"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+category: published
+permalink: /publication/2024-soft-computing
+excerpt: 'This paper explores novel approaches to fuzzy fractional differential equations using Hadamard ψ-Caputo tempered fractional derivatives.'
+date: 2024-01-01  # Date de publication approximative
+venue: 'Soft Computing'
+paperurl: 'https://doi.org/10.1007/s00500-024-09821-w'
+citation: 'Fouad I. A. Amir et al. (2024). &quot;The Hadamard ψ-Caputo tempered fractional derivative in various types of fuzzy fractional differential equations.&quot; <i>Soft Computing</i>. 1-18.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
