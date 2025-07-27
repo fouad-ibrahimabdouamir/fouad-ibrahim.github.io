@@ -214,6 +214,10 @@ I am always open to:
 🌐 **Google Scholar**: [My Publications Profile](https://scholar.google.com/citations?user=6vyIwxgAAAAJ&hl=fr&oi=ao)  
 📍 **Location**: Beni Mellal, Morocco
 
+</div>
+
+<div class="section" markdown="1">
+
 <style>
 .academic-header {
   background: #ffffff;
