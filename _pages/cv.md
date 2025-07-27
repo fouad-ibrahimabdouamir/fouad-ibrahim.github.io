@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,65 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
+* **Ph.D in Applied Mathematics and Physics**, *Sultan Moulay Slimane University*, 2021-2025  
+  *Thesis*: "Contribution to the Study of Fuzzy Fractional Differential Equations"  
+  *Supervisor*: Prof. Mhamed El Omari
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **M.Sc. in Mathematical Engineering and Applications**, *Sultan Moulay Slimane University*, 2019  
+  *Thesis*: "Study of Boundary Value Problems for Iterative Fuzzy Fractional Functional Differential Equations"
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **B.Sc. in Mathematical Engineering**, *Sultan Moulay Slimane University*, 2017
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Academic Appointments
+* **Teaching Assistant**, *National School of Applied Sciences (ENSA)*, 2024-2025  
+  - Delivered courses in Descriptive Statistics and Probability  
+  - Supervised 15+ engineering student projects  
+  - Developed interactive learning modules using Python
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Teaching Assistant**, *Higher School of Technology (EST)*, 2023-2024  
+  - Taught Analysis and Algebra to 100+ undergraduate students  
+  - Implemented innovative assessment methods  
+  - Achieved 92% student satisfaction rate
+
+* **Teaching Assistant**, *Faculty of Sciences and Techniques (FST)*, 2022-2025  
+  - Courses: Analysis I-IV, Algebra I-II, Probability & Statistics  
+  - Pioneered ICT integration in mathematics teaching  
+  - Received departmental teaching excellence award
+
+## Research Skills
+* **Mathematical Modeling**  
+  - Fuzzy fractional differential equations  
+  - Dynamical systems analysis  
+  - Numerical simulation (MATLAB, Python)
+
+* **Technical Proficiencies**  
+  - Scientific Computing: MATLAB, Mathematica, SageMath  
+  - Programming: Python (NumPy/SciPy), C/C++  
+  - Typesetting: LaTeX, Overleaf
+
+* **Theoretical Expertise**  
+  - Fractional calculus  
+  - Semigroup theory  
+  - Stability analysis
+
+## Publications
+{% include publications-cv.html %}
+
+## Conference Presentations
+{% include talks-cv.html %}
+
+## Teaching Portfolio
+{% include teaching-cv.html %}
+
+## Academic Service
+* **Reviewer** for:
+  - Journal of Fuzzy Extension and Applications  
+  - Journal of Nonlinear, Complex and Data Science  
+  - New Mathematics and Natural Computation
+
+* **Secretary General**, Association of Comorian Students in Morocco (ACEM), 2020-2022
+
+## Research Collaborations
+* University of Belgrade, Serbia (Fixed Point Theory Applications)
+* The University of Lahore, Pakistan (Fractional Modeling)
