@@ -5,6 +5,7 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+
 excerpt: "PhD specializing in fuzzy fractional differential equations and their applications to AI and dynamical systems.
 ---
 
