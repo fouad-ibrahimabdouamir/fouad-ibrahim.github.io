@@ -1,16 +1,23 @@
 ---
 permalink: /
-title: "Fouad Ibrahim Abdou Amir | Applied Mathematics Researcher"
+title: "Applied Mathematics Researcher"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
-header:
-  overlay_image: /images/headers/math-modeling.JPG
-  overlay_filter: 0.5
-  caption: "Modeling complex dynamical systems with uncertainty"
-excerpt: "PhD specializing in fuzzy fractional differential equations and their applications to AI and dynamical systems."
 ---
+
+<div class="main-header">
+  <div class="header-content">
+    <h1 class="page-title">Fouad Ibrahim Abdou Amir</h1>
+    <h2 class="page-subtitle">Applied Mathematics Researcher</h2>
+    <p class="header-caption">Modeling complex dynamical systems with uncertainty</p>
+    <p class="header-excerpt">PhD specializing in fuzzy fractional differential equations and their applications to AI and dynamical systems</p>
+  </div>
+</div>
+
+<div class="content-wrapper">
+<div class="main-content">
 
 ## Welcome to My Academic Website
 
@@ -176,6 +183,54 @@ I am always open to:
 📍 **Location**: Beni Mellal, Morocco
 
 <style>
+.main-header {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  padding: 40px 30px;
+  margin: -20px -30px 30px -30px;
+  border-radius: 0 0 15px 15px;
+}
+
+.header-content {
+  max-width: 800px;
+}
+
+.page-title {
+  font-size: 2.5em;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+
+.page-subtitle {
+  font-size: 1.4em;
+  margin: 0 0 15px 0;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.header-caption {
+  font-style: italic;
+  font-size: 1.1em;
+  margin: 0 0 10px 0;
+  opacity: 0.8;
+}
+
+.header-excerpt {
+  font-size: 1em;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
 .research-overview {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -284,6 +339,23 @@ I am always open to:
 }
 
 @media (max-width: 768px) {
+  .main-header {
+    margin: -20px -15px 30px -15px;
+    padding: 30px 20px;
+  }
+  
+  .page-title {
+    font-size: 2em;
+  }
+  
+  .page-subtitle {
+    font-size: 1.2em;
+  }
+  
+  .content-wrapper {
+    flex-direction: column;
+  }
+  
   .expertise-grid,
   .teaching-grid,
   .applications-grid {
@@ -299,3 +371,6 @@ I am always open to:
 ---
 
 *Last updated: July 2025 | This website showcases my journey in applied mathematics research, from theoretical foundations to practical applications in AI and complex systems modeling.*
+
+</div>
+</div>
