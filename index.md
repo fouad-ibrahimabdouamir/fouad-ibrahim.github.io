@@ -289,6 +289,64 @@ I am always open to:
   transform: translateY(-1px);
 }
 
+.connect-section {
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 1.05em;
+}
+
+.contact-icon {
+  margin-right: 12px;
+  font-size: 1.2em;
+}
+
+.contact-item strong {
+  margin-right: 8px;
+  color: #1e3a8a;
+}
+
+.contact-item a {
+  color: #1e3a8a;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.footer-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.separator {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #cbd5e1, transparent);
+  margin: 30px 0;
+}
+
+.last-updated {
+  color: #64748b;
+  font-size: 0.9em;
+  margin: 0;
+}
+
 .btn-small {
   padding: 6px 12px;
   font-size: 0.8em;
