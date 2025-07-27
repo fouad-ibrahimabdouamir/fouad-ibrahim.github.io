@@ -31,13 +31,19 @@ redirect_from:
 <div class="content-wrapper">
 <div class="main-content">
 
+<div class="intro-section" markdown="1">
 ## Welcome to My Academic Website
 
 I am a **PhD researcher in Applied Mathematics and Physics** at Sultan Moulay Slimane University, Morocco, specializing in **fuzzy fractional differential equations** and their applications in modeling complex systems under uncertainty. My research bridges theoretical mathematics with practical applications in artificial intelligence, dynamical systems, and computational modeling.
 
 With over **15 published papers** in high-impact journals and active **international collaborations** with universities in Pakistan and Serbia, I am passionate about advancing mathematical modeling techniques for real-world applications in robotics, industrial optimization, and biomathematics.
 
-[View Full CV](/cv/){: .btn .btn--primary} [My Publications](/publications/){: .btn .btn--info} [Research Projects](/projects/){: .btn .btn--success}
+<div class="action-buttons">
+<a href="/cv/" class="btn btn-primary">View Full CV</a>
+<a href="/publications/" class="btn btn-info">My Publications</a>
+<a href="/projects/" class="btn btn-success">Research Projects</a>
+</div>
+</div>
 
 ## Research Focus Areas
 
@@ -269,6 +275,62 @@ I am always open to:
   transform: translateY(-1px);
 }
 
+.intro-section {
+  margin-bottom: 40px;
+}
+
+.action-buttons {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95em;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+}
+
+.btn-info {
+  background-color: #0891b2;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #0e7490;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(8, 145, 178, 0.3);
+}
+
+.btn-success {
+  background-color: #059669;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #047857;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+}
+
 .content-wrapper {
   display: flex;
   gap: 30px;
@@ -415,6 +477,15 @@ I am always open to:
   .keyword {
     font-size: 0.85em;
     padding: 6px 12px;
+  }
+  
+  .action-buttons {
+    justify-content: center;
+  }
+  
+  .btn {
+    font-size: 0.9em;
+    padding: 10px 20px;
   }
   
   .content-wrapper {
