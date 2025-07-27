@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-  overlay_image: /images/headers/math-modeling.jpg
+  overlay_image: /images/headers/math-modeling.JPG
   overlay_filter: 0.3
   caption: "Modeling complex dynamical systems with uncertainty"
 excerpt: "PhD specializing in fuzzy fractional differential equations and their applications to AI and dynamical systems."
