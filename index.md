@@ -7,12 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-<div class="main-header">
-  <div class="header-content">
-    <h1 class="page-title">Fouad Ibrahim Abdou Amir</h1>
-    <h2 class="page-subtitle">Applied Mathematics Researcher</h2>
-    <p class="header-caption">Modeling complex dynamical systems with uncertainty</p>
-    <p class="header-excerpt">PhD specializing in fuzzy fractional differential equations and their applications to AI and dynamical systems</p>
+<div class="academic-header">
+  <div class="header-container">
+    <div class="title-section">
+      <h1 class="researcher-name">Fouad Ibrahim Abdou Amir</h1>
+      <div class="academic-credentials">
+        <span class="degree">PhD in Applied Mathematics and Physics</span>
+        <span class="separator">•</span>
+        <span class="institution">Sultan Moulay Slimane University</span>
+      </div>
+    </div>
+    <div class="research-focus">
+      <p class="specialization">Fuzzy Fractional Differential Equations & Mathematical Modeling</p>
+      <div class="research-keywords">
+        <span class="keyword">Dynamical Systems</span>
+        <span class="keyword">Artificial Intelligence</span>
+        <span class="keyword">Uncertainty Quantification</span>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -183,42 +195,78 @@ I am always open to:
 📍 **Location**: Beni Mellal, Morocco
 
 <style>
-.main-header {
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-  color: white;
-  padding: 40px 30px;
-  margin: -20px -30px 30px -30px;
-  border-radius: 0 0 15px 15px;
+.academic-header {
+  background: #ffffff;
+  border-bottom: 3px solid #1e3a8a;
+  padding: 45px 0;
+  margin: -20px -30px 40px -30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-.header-content {
-  max-width: 800px;
+.header-container {
+  max-width: 900px;
+  padding: 0 30px;
 }
 
-.page-title {
-  font-size: 2.5em;
-  margin: 0 0 10px 0;
-  font-weight: 700;
+.title-section {
+  margin-bottom: 25px;
 }
 
-.page-subtitle {
-  font-size: 1.4em;
-  margin: 0 0 15px 0;
+.researcher-name {
+  font-size: 2.8em;
   font-weight: 300;
-  opacity: 0.9;
+  color: #1e3a8a;
+  margin: 0 0 12px 0;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
 }
 
-.header-caption {
-  font-style: italic;
+.academic-credentials {
   font-size: 1.1em;
-  margin: 0 0 10px 0;
-  opacity: 0.8;
+  color: #64748b;
+  font-weight: 400;
+  letter-spacing: 0.3px;
 }
 
-.header-excerpt {
-  font-size: 1em;
-  margin: 0;
-  opacity: 0.9;
+.separator {
+  margin: 0 12px;
+  color: #cbd5e1;
+}
+
+.research-focus {
+  border-top: 1px solid #e2e8f0;
+  padding-top: 25px;
+}
+
+.specialization {
+  font-size: 1.3em;
+  color: #334155;
+  margin: 0 0 20px 0;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.research-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.keyword {
+  background: #f1f5f9;
+  color: #475569;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 0.9em;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.keyword:hover {
+  background: #1e3a8a;
+  color: white;
+  transform: translateY(-1px);
 }
 
 .content-wrapper {
@@ -339,17 +387,34 @@ I am always open to:
 }
 
 @media (max-width: 768px) {
-  .main-header {
+  .academic-header {
     margin: -20px -15px 30px -15px;
-    padding: 30px 20px;
+    padding: 35px 0;
   }
   
-  .page-title {
-    font-size: 2em;
+  .header-container {
+    padding: 0 20px;
   }
   
-  .page-subtitle {
-    font-size: 1.2em;
+  .researcher-name {
+    font-size: 2.2em;
+  }
+  
+  .academic-credentials {
+    font-size: 1em;
+  }
+  
+  .specialization {
+    font-size: 1.1em;
+  }
+  
+  .research-keywords {
+    justify-content: center;
+  }
+  
+  .keyword {
+    font-size: 0.85em;
+    padding: 6px 12px;
   }
   
   .content-wrapper {
