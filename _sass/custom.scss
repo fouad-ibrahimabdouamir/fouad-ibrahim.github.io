@@ -1,0 +1,12 @@
+/* Largeur de la barre latérale */
+$sidebar-width: 300px;
+
+.main-content {
+  margin-left: $sidebar-width;
+  
+  /* Adaptation sur mobile */
+  @media screen and (max-width: 1024px) {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
