@@ -7,7 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-
+---
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_image: /images/headers/math-modeling.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  caption: "Modeling complex dynamical systems with uncertainty"
+  cta_label: "View CV"
+  cta_url: "/cv/"
+excerpt: "PhD specializing in fuzzy fractional differential equations and their applications to AI and dynamical systems."
+---
 ## Welcome to My Academic Website
 
 I am a researcher in applied mathematics focused on **fuzzy fractional differential equations** and their applications in modeling complex systems. My work bridges:
