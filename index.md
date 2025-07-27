@@ -289,6 +289,35 @@ I am always open to:
   transform: translateY(-1px);
 }
 
+.connect-section-html {
+  margin-bottom: 30px;
+}
+
+.connect-section-html h2 {
+  font-size: 1.8em;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+}
+
+.connect-section-html p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.connect-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.connect-list li {
+  margin-bottom: 8px;
+  font-size: 1.05em;
+  line-height: 1.5;
+}
+
 .connect-section {
   margin-bottom: 30px;
 }
