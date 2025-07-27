@@ -1,66 +1,67 @@
 ---
-layout: single
-author_profile: true
+layout: single          # Utilise le layout "single" pour mieux gérer les barres latérales
+author_profile: true    # Active la barre de profil à gauche
 permalink: /
 title: "Fouad Ibrahim Abdou Amir | Chercheur en Mathématiques Appliquées"
 header:
-  overlay_image: /images/headers/math-modeling.jpg  # .jpg en minuscules
-  overlay_filter: 0.5
-  caption: "Modélisation de systèmes dynamiques complexes"
-excerpt: "Spécialiste des équations différentielles floues fractionnaires"
-classes: wide
+  overlay_image: /images/headers/math-modeling.JPG  # Chemin de votre image
+  overlay_filter: 0.5   # Opacité du filtre (0.5 = 50%)
+  caption: "Modélisation de systèmes dynamiques complexes avec incertitudes"
+excerpt: "Docteur spécialisé dans les équations différentielles floues fractionnaires et leurs applications en IA et systèmes dynamiques."
+classes: wide           # Classe pour une meilleure gestion de l'espace
 ---
 
 <style>
-/* Solution définitive contre le chevauchement */
-#main {
-  position: relative;
-  padding-left: 300px; /* Largeur sidebar */
-}
-
-/* Ajustements header */
-.page__hero--overlay {
-  width: calc(100% - 300px) !important;
-  left: 300px !important;
-  margin-top: 60px;
+/* Conteneur principal */
+.main-content {
+  margin-left: 300px;    /* Correspond à la largeur de la barre latérale */
+  padding: 30px;         /* Espacement intérieur */
 }
 
 /* Adaptation mobile */
-@media screen and (max-width: 1200px) {
-  #main, .page__hero--overlay {
-    padding-left: 0;
-    left: 0;
-    width: 100% !important;
+@media screen and (max-width: 1024px) {
+  .main-content {
+    margin-left: 0;      /* Supprime la marge sur mobile */
   }
 }
 
-/* Cartes expertise */
-.expertise-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin: 40px 0;
+/* Ajustement de l'en-tête */
+.page__hero--overlay {
+  padding: 8em 0;        /* Hauteur de l'en-tête */
+  margin-bottom: 3em;    /* Espace après l'en-tête */
+}
+
+/* Cartes de compétences */
+.expertise-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
 }
 </style>
 
-<div id="main">
-  <div class="page__hero--overlay">
-    <!-- Header content will go here automatically -->
-  </div>
+<div class="main-content">
+  
+  ## Domaines d'Expertise
 
-  <div class="custom-content">
-    ## Domaines d'Expertise
-    
-    <div class="expertise-grid">
-      <div class="expertise-card">
-        <h3>Analyse Floue</h3>
-        <ul>
-          <li>Dérivées fractionnaires</li>
-          <li>Théorie des semi-groupes</li>
-        </ul>
-      </div>
+  <div class="expertise-grid">
+    <div class="expertise-card">
+      <h3>Théorie du Point Fixe</h3>
+      <ul>
+        <li>Applications aux systèmes fractionnaires</li>
+        <li>Preuves d'existence et d'unicité</li>
+      </ul>
     </div>
     
-    [Voir mon CV](/cv/){: .btn .btn--primary}
+    <div class="expertise-card">
+      <h3>Systèmes Flous</h3>
+      <ul>
+        <li>Théorie des ensembles flous</li>
+        <li>Différentiabilité généralisée</li>
+      </ul>
+    </div>
   </div>
+
+  [Voir CV Complet](/cv/){: .btn .btn--primary}
 </div>
