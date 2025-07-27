@@ -1,81 +1,96 @@
 ---
-layout: splash
 permalink: /
 title: "Fouad Ibrahim Abdou Amir | Applied Mathematics Researcher"
-excerpt: "PhD specializing in fuzzy fractional differential equations and their applications to AI and dynamical systems."
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 header:
-  overlay_color: "#000"
   overlay_image: /images/headers/math-modeling.jpg
-  overlay_filter: rgba(0, 0, 0, 0.5)
+  overlay_filter: 0.3
   caption: "Modeling complex dynamical systems with uncertainty"
-  cta_label: "View CV"
-  cta_url: "/cv/"
-feature_row:
-  - title: "Research"
-    excerpt: "Explore my publications in fuzzy fractional systems"
-    url: "/publications/"
-    btn_label: "See Publications"
-    btn_class: "btn--primary"
-  - title: "Teaching"
-    excerpt: "Innovative mathematics education methods"
-    url: "/teaching/"
-    btn_label: "View Courses"
-    btn_class: "btn--info"
-  - title: "Talks"
-    excerpt: "Conference presentations and seminars"
-    url: "/talks/"
-    btn_label: "Watch Presentations"
-    btn_class: "btn--success"
+excerpt: "PhD specializing in fuzzy fractional differential equations and their applications to AI and dynamical systems."
 ---
+
+## Welcome to My Academic Website
+
+I am a researcher in applied mathematics focused on **fuzzy fractional differential equations** and their applications in modeling complex systems. My work bridges:
+
+- Advanced mathematical analysis
+- Uncertainty quantification
+- Intelligent system modeling
+
+[View Full CV](/cv/){: .btn .btn--primary} [My Publications](/publications/){: .btn .btn--info}
 
 ## Research Expertise
 
 <div class="expertise-grid">
 
 <div class="expertise-card" markdown="1">
-### Fixed Point Theory
+**Fixed Point Theory**  
 - Fuzzy contraction mappings  
 - Applications to fractional systems  
 - Existence/uniqueness proofs
 </div>
 
 <div class="expertise-card" markdown="1">
-### Fuzzy Systems
+**Fuzzy Systems**  
 - Fuzzy set theory  
 - Generalized differentiability  
 - Fuzzy semigroups
 </div>
 
 <div class="expertise-card" markdown="1">
-### Differential Equations
+**Differential Equations**  
 - Fractional calculus  
 - Hybrid systems  
 - Boundary value problems
 </div>
 
+<div class="expertise-card" markdown="1">
+**Computational Methods**  
+- Numerical simulation  
+- MATLAB/Python implementation  
+- Stability analysis
 </div>
 
-{% include feature_row %}
+</div>
+
+## Recent Updates
+
+**July 2024**  
+New paper on ψ-Caputo tempered derivatives published in *Soft Computing*  
+[Read paper](https://doi.org/10.1007/s00500-024-09821-w){: .btn .btn--small}
+
+**June 2024**  
+Keynote presentation at ICFPTA'24 Marrakech on fuzzy fixed point theory  
+[View slides](/files/slides/icfpta2024-slides.pdf){: .btn .btn--small}
+
+**May 2024**  
+Research collaboration launched with University of Belgrade  
+[Learn more](/projects/){: .btn .btn--small}
 
 <style>
 .expertise-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  margin: 2em 0;
+  margin: 40px 0;
 }
 .expertise-card {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border-top: 4px solid #2c3e50;
+  background: #f8f9fa;
+  border-left: 4px solid #2c3e50;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
 }
-.expertise-card h3 {
-  margin-top: 0;
-  color: #2c3e50;
+.expertise-card:hover {
+  transform: translateY(-5px);
 }
-.btn {
-  margin: 5px;
+.btn--small {
+  padding: 3px 8px;
+  font-size: 0.8em;
+  margin-top: 5px;
 }
 </style>
