@@ -51,14 +51,26 @@ redirect_from:
   - Semigroup theory  
   - Stability analysis
 
-## Publications
-{% include publications-cv.html %}
 
-## Conference Presentations
-{% include talks-cv.html %}
 
-## Teaching Portfolio
-{% include teaching-cv.html %}
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 
 ## Academic Service
 * **Reviewer** for:
