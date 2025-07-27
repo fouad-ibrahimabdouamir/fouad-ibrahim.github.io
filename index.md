@@ -1,67 +1,58 @@
 ---
-layout: single          # Utilise le layout "single" pour mieux gérer les barres latérales
-author_profile: true    # Active la barre de profil à gauche
+layout: single
+author_profile: true
 permalink: /
-title: "Fouad Ibrahim Abdou Amir | Chercheur en Mathématiques Appliquées"
+title: "Fouad Ibrahim Abdou Amir | Applied Mathematics Researcher"
 header:
-  overlay_image: /images/headers/math-modeling.JPG  # Chemin de votre image
-  overlay_filter: 0.5   # Opacité du filtre (0.5 = 50%)
-  caption: "Modélisation de systèmes dynamiques complexes avec incertitudes"
-excerpt: "Docteur spécialisé dans les équations différentielles floues fractionnaires et leurs applications en IA et systèmes dynamiques."
-classes: wide           # Classe pour une meilleure gestion de l'espace
+  overlay_image: /images/headers/math-modeling.JPG
+  overlay_filter: 0.5
+  caption: "Modeling complex dynamical systems with uncertainty"
+excerpt: "PhD specializing in fuzzy fractional differential equations and their applications to AI and dynamical systems."
+classes: wide
 ---
 
 <style>
-/* Conteneur principal */
+/* Prevent overlap with sidebar */
 .main-content {
-  margin-left: 300px;    /* Correspond à la largeur de la barre latérale */
-  padding: 30px;         /* Espacement intérieur */
+  margin-left: 300px; /* Matches sidebar width */
+  padding: 20px;
 }
 
-/* Adaptation mobile */
+/* Responsive adjustment */
 @media screen and (max-width: 1024px) {
   .main-content {
-    margin-left: 0;      /* Supprime la marge sur mobile */
+    margin-left: 0;
   }
 }
 
-/* Ajustement de l'en-tête */
+/* Header image containment */
 .page__hero--overlay {
-  padding: 8em 0;        /* Hauteur de l'en-tête */
-  margin-bottom: 3em;    /* Espace après l'en-tête */
-}
-
-/* Cartes de compétences */
-.expertise-card {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+  padding: 10em 0; /* Adjust height */
+  margin-bottom: 2em;
 }
 </style>
 
 <div class="main-content">
   
-  ## Domaines d'Expertise
+  ## Research Expertise
 
   <div class="expertise-grid">
     <div class="expertise-card">
-      <h3>Théorie du Point Fixe</h3>
+      <h3>Fixed Point Theory</h3>
       <ul>
-        <li>Applications aux systèmes fractionnaires</li>
-        <li>Preuves d'existence et d'unicité</li>
+        <li>Fuzzy contraction mappings</li>
+        <li>Applications to fractional systems</li>
       </ul>
     </div>
     
     <div class="expertise-card">
-      <h3>Systèmes Flous</h3>
+      <h3>Fuzzy Systems</h3>
       <ul>
-        <li>Théorie des ensembles flous</li>
-        <li>Différentiabilité généralisée</li>
+        <li>Fuzzy set theory</li>
+        <li>Generalized differentiability</li>
       </ul>
     </div>
   </div>
 
-  [Voir CV Complet](/cv/){: .btn .btn--primary}
+  [View Full CV](/cv/){: .btn .btn--primary}
 </div>
