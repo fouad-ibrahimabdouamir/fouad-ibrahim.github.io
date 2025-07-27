@@ -27,7 +27,7 @@ classes: wide
 
 /* Header image containment */
 .page__hero--overlay {
-  padding: 10em 0; /* Adjust height */
+  padding: 8em 0; /* Adjust height */
   margin-bottom: 2em;
 }
 </style>
