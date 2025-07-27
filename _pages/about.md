@@ -6,8 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
----
 layout: splash
 header:
   overlay_color: "#000"
@@ -18,6 +16,9 @@ header:
   cta_url: "/cv/"
 excerpt: "PhD specializing in fuzzy fractional differential equations and their applications to AI and dynamical systems."
 ---
+---
+
+
 ## Welcome to My Academic Website
 
 I am a researcher in applied mathematics focused on **fuzzy fractional differential equations** and their applications in modeling complex systems. My work bridges:
