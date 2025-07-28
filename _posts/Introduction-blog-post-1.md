@@ -1,5 +1,5 @@
 ---
-title: 'Introduction aux équations différentielles fractionnaires floues : Pourquoi c'est important ?'
+title: "Introduction aux équations différentielles fractionnaires floues : Pourquoi c'est important ?"
 date: 2025-03-15
 permalink: /posts/2025/03/fuzzy-fractional-equations-intro/
 tags:
