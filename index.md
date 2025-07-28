@@ -226,46 +226,437 @@ I am always open to:
 
 </div>
 
+
 <style>
-.contact-section {
-  background: #f8fafc;
-  padding: 30px;
-  border-radius: 10px;
-  margin: 40px 0;
-  border-left: 4px solid #1e3a8a;
-}
-
-.connect-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.contact-info-box {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  margin-top: 20px;
+.academic-header {
+  background: #ffffff;
+  border-bottom: 3px solid #1e3a8a;
+  padding: 45px 0;
+  margin: -20px -30px 40px -30px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-.contact-info-box a {
-  color: #1e3a8a;
-  text-decoration: none;
-  transition: all 0.3s;
+.header-container {
+  max-width: 900px;
+  padding: 0 30px;
 }
 
-.contact-info-box a:hover {
+.title-section {
+  margin-bottom: 25px;
+}
+
+.researcher-name {
+  font-size: 2.8em;
+  font-weight: 300;
+  color: #1e3a8a;
+  margin: 0 0 12px 0;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+.academic-credentials {
+  font-size: 1.1em;
+  color: #64748b;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+.separator {
+  margin: 0 12px;
+  color: #cbd5e1;
+}
+
+.research-focus {
+  border-top: 1px solid #e2e8f0;
+  padding-top: 25px;
+}
+
+.specialization {
+  font-size: 1.3em;
+  color: #334155;
+  margin: 0 0 20px 0;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.research-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.keyword {
+  background: #f1f5f9;
+  color: #475569;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 0.9em;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.keyword:hover {
+  background: #1e3a8a;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.connect-section-html {
+  margin-bottom: 30px;
+}
+
+.connect-section-html h2 {
+  font-size: 1.8em;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+}
+
+.connect-section-html p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.connect-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.connect-list li {
+  margin-bottom: 8px;
+  font-size: 1.05em;
+  line-height: 1.5;
+}
+
+.connect-section {
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 1.05em;
+}
+
+.contact-icon {
+  margin-right: 12px;
+  font-size: 1.2em;
+}
+
+.contact-item strong {
+  margin-right: 8px;
+  color: #1e3a8a;
+}
+
+.contact-item a {
+  color: #1e3a8a;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #1e40af;
   text-decoration: underline;
-  color: #0c4a6e;
+}
+
+.footer-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.separator {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #cbd5e1, transparent);
+  margin: 30px 0;
+}
+
+.last-updated {
+  color: #64748b;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.btn-small {
+  padding: 6px 12px;
+  font-size: 0.8em;
+  margin-top: 8px;
+  display: inline-block;
+  background-color: #64748b;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.btn-small:hover {
+  background-color: #475569;
+  transform: translateY(-1px);
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.contact-info {
+  background: #f8fafc;
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 4px solid #1e3a8a;
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1.05em;
+}
+
+.contact-info a {
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.intro-section {
+  margin-bottom: 40px;
+}
+
+.action-buttons {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95em;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+}
+
+.btn-info {
+  background-color: #0891b2;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #0e7490;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(8, 145, 178, 0.3);
+}
+
+.btn-success {
+  background-color: #059669;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #047857;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.research-overview {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.research-highlight h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 40px 0;
+}
+
+.expertise-card {
+  background: #f8f9fa;
+  border-left: 5px solid #2c3e50;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.expertise-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.collaboration-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.collab-item {
+  background: #e8f4f8;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+.teaching-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.teaching-card {
+  background: #fff5e6;
+  border: 2px solid #f39c12;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.achievements-timeline {
+  background: #f7f7f7;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.achievement-item {
+  background: white;
+  margin: 15px 0;
+  padding: 20px;
+  border-left: 4px solid #27ae60;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.applications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.app-card {
+  background: #fff;
+  border: 2px solid #e74c3c;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.app-card:hover {
+  background: #e74c3c;
+  color: white;
+  transform: scale(1.05);
+}
+
+.btn--small {
+  padding: 5px 12px;
+  font-size: 0.85em;
+  margin: 5px;
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
-  .contact-section {
-    padding: 20px;
+  .academic-header {
+    margin: -20px -15px 30px -15px;
+    padding: 35px 0;
   }
   
-  .contact-info-box {
-    padding: 15px;
+  .header-container {
+    padding: 0 20px;
+  }
+  
+  .researcher-name {
+    font-size: 2.2em;
+  }
+  
+  .academic-credentials {
+    font-size: 1em;
+  }
+  
+  .specialization {
+    font-size: 1.1em;
+  }
+  
+  .research-keywords {
+    justify-content: center;
+  }
+  
+  .keyword {
+    font-size: 0.85em;
+    padding: 6px 12px;
+  }
+  
+  .action-buttons {
+    justify-content: center;
+  }
+  
+  .btn {
+    font-size: 0.9em;
+    padding: 10px 20px;
+  }
+  
+  .content-wrapper {
+    flex-direction: column;
+  }
+  
+  .expertise-grid,
+  .teaching-grid,
+  .applications-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .collaboration-section {
+    grid-template-columns: 1fr;
   }
 }
 </style>
