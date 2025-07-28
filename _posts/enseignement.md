@@ -1,5 +1,5 @@
 ---
-title: 'L\'enseignement des mathématiques à l\'ère numérique : Retour d\'expérience'
+title: "L'enseignement des mathématiques à l'ère numérique : Retour d'expérience"
 date: 2024-09-20
 permalink: /posts/2024/09/digital-math-teaching/
 tags:
