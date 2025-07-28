@@ -203,9 +203,7 @@ Analytical and numerical solutions for nonlinear flow problems
 </div>
 
 <div class="contact-section" markdown="1">
-
 ## Let's Connect
-
 <div class="connect-content">
   
 ### Collaboration Opportunities
@@ -214,16 +212,13 @@ I am always open to:
 - **Academic Partnerships** for joint projects and publications  
 - **Teaching Opportunities** in mathematics and computational sciences  
 - **Consulting Projects** in mathematical modeling and optimization  
-
+</div>
 <div class="contact-info-box">
 📧 **Email**: [fouad.ibrahimabdouamir@usms.ma](mailto:fouad.ibrahimabdouamir@usms.ma)  
 🌐 **Google Scholar**: [My Publications Profile](https://scholar.google.com/citations?user=6vyIwxgAAAAJ&hl=fr&oi=ao)  
 📍 **Location**: Beni Mellal, Morocco  
 📞 **Phone**: (+212) 638405449
 </div>
-
-</div>
-
 </div>
 
 
