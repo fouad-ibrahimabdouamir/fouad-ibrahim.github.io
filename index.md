@@ -217,11 +217,8 @@ I am always open to:
 ### Contact Information
 
 📧 **Email**: [fouad.ibrahimabdouamir@usms.ma](mailto:fouad.ibrahimabdouamir@usms.ma)
-
 🌐 **Google Scholar**: [My Publications Profile](https://scholar.google.com/citations?user=6vyIwxgAAAAJ&hl=fr&oi=ao)
-
 📍 **Location**: Beni Mellal, Morocco
-
 📞 **Phone**: (+212) 638405449
 </div>
 
