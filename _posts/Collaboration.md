@@ -1,5 +1,5 @@
 ---
-title: 'Collaboration scientifique internationale : L\'importance des réseaux de recherche'
+title: "Collaboration scientifique internationale : L'importance des réseaux de recherche"
 date: 2024-06-10
 permalink: /posts/2024/06/international-collaboration/
 tags:
