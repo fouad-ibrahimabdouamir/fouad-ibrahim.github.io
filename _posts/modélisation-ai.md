@@ -1,5 +1,5 @@
 ---
-title: 'De la modélisation mathématique à l\'intelligence artificielle : Perspectives d\'avenir'
+title: "De la modélisation mathématique à l'intelligence artificielle : Perspectives d'avenir"
 date: 2023-11-15
 permalink: /posts/2023/11/math-modeling-ai/
 tags:
