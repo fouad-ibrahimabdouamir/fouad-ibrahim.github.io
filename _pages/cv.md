@@ -14,10 +14,12 @@ redirect_from:
   *Thesis*: "Contribution to the Study of Fuzzy Fractional Differential Equations"  
   *Supervisor*: Prof. Mhamed El Omari
 
-* **M.Sc. in Mathematical Engineering and Applications**, *Sultan Moulay Slimane University*, 2020-2021  
+* **M.Sc. in Mathematical Engineering and Applications**, *Sultan Moulay Slimane University*, 2019-2021  
   *Thesis*: "Study of Boundary Value Problems for Iterative Fuzzy Fractional Functional Differential Equations"
 
 * **B.Sc. in Mathematical Engineering**, *Sultan Moulay Slimane University*, 2018-2019
+
+*  **Two-Year University Diploma in Mathematics, Computer Science, Physics, and Chemistry (DEUST MIPC)**, *Sultan Moulay Slimane University*, 2016-2018
 
 ## Academic Appointments
 * **Teaching Assistant**, *National School of Applied Sciences (ENSA)*, 2024-2025  
